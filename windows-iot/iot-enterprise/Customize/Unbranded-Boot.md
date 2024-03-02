@@ -39,7 +39,7 @@ Windows 10 Enterprise, Windows 10 Professional, or Windows 10 Education.
 
 Unbranded Boot is an optional component and isn't enabled by default in Windows 10. It must be enabled prior to configuring. For end-users, Unbranded Boot is available through **Control Panel** &gt; **Programs** &gt; **Programs and Features** &gt; **Turn Windows features on or off**.
 
-If Windows has already been installed, you can't apply a provisioning package to configure Unbranded Boot; instead you must use BDCEdit to configure Unbranded boot if Windows is installed.
+If Windows has already been installed, you can't apply a provisioning package to configure Unbranded Boot; instead you must use BCDEdit to configure Unbranded boot if Windows is installed.
 
 BCDEdit is the primary tool for editing the startup configuration and is on your development computer in the %WINDIR%\\System32 folder. You have administrator rights for it. BCDEdit is included in a typical Windows Preinstallation Environment (Windows PE) 4.0. You can download it from the [BCDEdit Commands for Boot Environment](/previous-versions/windows/hardware/design/dn653986(v=vs.85)) in the Microsoft Download Center if needed.
 
